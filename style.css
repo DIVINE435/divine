@@ -249,6 +249,23 @@ footer {
     /* margin-left: 67em; */
   }
 
+    nav{
+        background-color: blue;
+        color: orange;
+        padding: .5em;
+        width: 35vw;
+        height: 100vh;
+        display: flex;
+
+    }
+
+    ul{
+        flex-direction: column;
+        gap: 3em;
+    }
+    
+  }
+
   .leg{
     padding: 2em 18em;
     font-size: 16px;
