@@ -1,2 +1,2 @@
-# divine
+# Divine
 portfolio
