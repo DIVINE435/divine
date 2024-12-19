@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* background-color: rgb(85, 133, 246); */
+    padding: 2em 5em;  
+    height: 25em;
+    /* display: flex; */
+    background: url('m.jpg');
+    background-position:top;
+    background-size: cover;
+}
+.firsth1{
+    margin-right: 3em;
+}
+
+.firsth1:hover{
+    transform: translate(5em);
+    transition: 2s ease-in-out;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 1em;
+    border-radius: 1em;
+}
+.links a:hover{
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+}
+.home{
+    background-color: grey;
+    border-radius: 2em;
+    padding: .7em;
+    border: none;
+    color: white;
+    margin-left: 2em;
+    box-shadow: 0px 0px 4px 0px white;
+}
+.firstimg{
+    height: 22em;
+    margin-top: 1.3em;
+    margin-left: 35em;
+    border-radius: 2em;
+    width: 25em;
+    /* margin-left: 10em; */
+}
+.firstimg:hover{
+    transform: translate(5em);
+    transition: 2s ease-in-out;
+}
+.fid{
+    height: 27em;
+    margin-top: 1.7em;
+    margin-left: 47em;
+    border-radius: 2em;
+    width: 15em;
+    margin-left: 19em;
+}
+
+.you{
+    /* margin-left: 3em; */
+    margin-right: 8em;
+}
+.firstimg:hover{
+    border: 0.1em solid black;
+}
+
+/* body */
+
+section{
+    /* background-color: hsl(0, 100%, 50%); */
+    /* display: flex; */
+    
+}
+
+.pox{
+    display: flex;
+    /* padding: 2em 6em; */
+}
+
+.H1{
+    text-align: center;
+    color: blue;
+    border-radius: 1em;
+    position: sticky;
+    top: 0;
+}
+
+.H1:hover{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sectionH1{
+    color: black;
+    text-align: center;
+
+}
+
+img{
+    width: 19em;
+    height: 15em;
+    border-radius: 1em;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;  
+}
+
+.class:hover{
+     border: 0.1em solid red;
+     border-radius: 1em;
+}
+.p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    color:  green;
+}
+h4{
+    margin-top: 0.5em;
+}
+.div1{
+    margin-top: 3em;
+}
+.p1{
+    margin-left: 2.5em;
+}
+.p2{
+    margin-left: 4.9em;
+    margin-top: 1em;
+}
+
+/* contact styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+.form-group input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* footer styling */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    position: relative;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .social-icons a:hover {
+    color: #ddd;
+  }
+  .H1{
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
+  }
+  /* whats icon style */
+
+  .whats{
+    position: fixed;
+    top: 100px;
+    /* margin-left: 67em; */
+  }
+
+  .leg{
+    padding: 2em 18em;
+    font-size: 16px;
+  }
+  
+  
