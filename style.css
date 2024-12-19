@@ -296,7 +296,7 @@ header{
     }
 
     .firstimg{
-        width: 50em;
+        display: none;
     }
     
   }
