@@ -270,5 +270,36 @@ footer {
     padding: 2em 18em;
     font-size: 16px;
   }
+
+  /* MEDIA VISIBILITY */
+
+  @media screen and (max-width: 765px) {
+
+header{
+    
+    width: 50em;
+}
+
+    nav{
+        background-color: blue;
+        color: orange;
+        padding: .5em;
+        width: 35vw;
+        height: 100vh;
+        display: flex;
+
+    }
+
+    ul{
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .firstimg{
+        width: 50em;
+    }
+    
+  }
+  
   
   
